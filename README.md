@@ -1,4 +1,4 @@
-# Morse-Code-Messenger-LabVIEW-x-PIC-
+# Morse-Code-Messenger(LabVIEWxPIC)
 PC（LabVIEW）に入力したテキストを、リアルタイムで**光と音のモールス信号**に変換して出力する組み込みシステムです。  
 ## 🎓 学習目的
 
