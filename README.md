@@ -2,7 +2,7 @@
 PC（LabVIEW）に入力したテキストを、リアルタイムで**光と音のモールス信号**に変換して出力する組み込みシステムです。  
 
 [![C Language (CCS C)](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c&logoColor=white)](https://www.ccsinfo.com/content.php?page=compiler-details)
-[![LabVIEW](https://img.shields.io/badge/Tools-LabVIEW-orange?style=for-the-badge&logo=ni&logoColor=white)](https://www.ni.com/docs/ja-JP/category/labview)
+[![LabVIEW](https://img.shields.io/badge/Tools-LabVIEW-orange?style=for-the-badge&logo=ni&logoColor=white)](https://www.ni.com/pdf/manuals/374714f_0112.html?srsltid=AfmBOop014XiOXtMHOduOuMmIqN-2JUCcasnFxyoB4jfSMMTPfoyO6Hm)
 [![Microchip PIC16F819](https://img.shields.io/badge/Hardware-PIC16F819-red?style=for-the-badge&logo=microchip&logoColor=white)](https://www.microchip.com/en-us/product/PIC16F819)
 
 ## 🎓 学習目的
