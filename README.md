@@ -5,6 +5,10 @@ PC（LabVIEW）に入力したテキストを、リアルタイムで**光と音
 [![LabVIEW](https://img.shields.io/badge/Tools-LabVIEW-orange?style=for-the-badge&logo=ni&logoColor=white)](https://www.ni.com/pdf/manuals/374714f_0112.html?srsltid=AfmBOop014XiOXtMHOduOuMmIqN-2JUCcasnFxyoB4jfSMMTPfoyO6Hm)
 [![Microchip PIC16F819](https://img.shields.io/badge/Hardware-PIC16F819-red?style=for-the-badge&logo=microchip&logoColor=white)](https://www.microchip.com/en-us/product/PIC16F819)
 
+## 📺 デモ動画
+https://youtu.be/E1FnONW5RLc
+
+
 ## 🎓 学習目的
 
 LabVIEWとPICマイコンを用いた「ソフトウェアとハードウェアの連携」の理解を深めることを目的としています。
