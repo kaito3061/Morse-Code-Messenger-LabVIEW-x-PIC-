@@ -1,0 +1,83 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+020-021 strtok.save
+022-025 _Randseed
+026     MAIN.i
+027     MAIN.data
+028     play_morse.c
+028     @GETCH_1_.@SCRATCH1
+029-02A beep.ms
+029     play_morse.@SCRATCH1
+02A     @delay_ms1.P1
+02B-02C beep.i
+02D     beep.@SCRATCH1
+02E     @delay_us1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+005A  @delay_ms1
+0025  @delay_us1
+000B  setups
+0004  INT_IO
+006E  @GETCH_1_
+0036  beep
+008F  dot
+0097  dash
+00A0  play_morse
+01D4  MAIN
+01D4  @cinit1
+01E3  @cinit2
+0136  StrtoulGO
+0136  StrtolGO
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    E:\LEDモールス信号　音＋\
+
+Project Files:
+    819-ReadSonar.c                                         [15-12-25 13:54  CRC=B05E176F]
+    819-.h                                                  [08-12-25 21:17  CRC=13B02A3E]
+    C:\Program Files (x86)\PICC\Devices\16F819.h            [27-8-18 14:21  CRC=38F84E50]
+    setups.c                                                [08-12-25 21:17  CRC=34934064]
+    init.c                                                  [08-12-25 21:17  CRC=34934064]
+    C:\Program Files (x86)\PICC\Drivers\stdlib.h            [08-6-11 14:39  CRC=0B6669CF]
+    C:\Program Files (x86)\PICC\Drivers\stddef.h            [16-7-10 09:27  CRC=897CEC6C]
+    C:\Program Files (x86)\PICC\Drivers\string.h            [14-7-11 10:13  CRC=23EDEC8F]
+    C:\Program Files (x86)\PICC\Drivers\ctype.h             [03-1-08 13:55  CRC=2D1F019F]
+
+Source signature=793C56CD
+
+Units:
+    819-ReadSonar (main)
+
+Compiler Settings:
+    Processor:      PIC16F819
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      819-ReadSonar.err
+    Ext Symbols: 819-ReadSonar.esym
+    INHX8:       819-ReadSonar.hex
+    Symbols:     819-ReadSonar.sym
+    List:        819-ReadSonar.lst
+    Debug/COFF:  819-ReadSonar.cof
+    Project:     819-ReadSonar.PJT
+    Call Tree:   819-ReadSonar.tre
+    Statistics:  819-ReadSonar.STA
