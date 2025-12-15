@@ -1,5 +1,5 @@
 # Morse-Code-Messenger(LabVIEWxPIC)
-PC（LabVIEW）に入力したテキストを、リアルタイムで**光と音のモールス信号**に変換して出力する組み込みシステムです。  
+PC（LabVIEW）に入力したテキストを、リアルタイムで**光と音のモールス信号**に変換して出力する組み込みシステムです。  
 
 [![C Language (CCS C)](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c&logoColor=white)](https://www.ccsinfo.com/content.php?page=compiler-details)
 [![LabVIEW](https://img.shields.io/badge/Tools-LabVIEW-orange?style=for-the-badge&logo=ni&logoColor=white)](https://www.ni.com/pdf/manuals/374714f_0112.html?srsltid=AfmBOop014XiOXtMHOduOuMmIqN-2JUCcasnFxyoB4jfSMMTPfoyO6Hm)
@@ -29,7 +29,7 @@ LabVIEWとPICマイコンを用いた「ソフトウェアとハードウェア�
 
 ## 🔌 配線・接続 (Hardware Setup)
 
-PIC16F819 (18-pin DIP) を使用した詳細な配線表です。  
+PIC16F819 (18-pin DIP) を使用した詳細な配線表です。  
 ブレッドボード上で組む際は、電源ラインのショートに十分注意してください。
 
 | PIC Pin No. | ピン名称 | 機能 | 接続先・詳細 |
@@ -61,15 +61,17 @@ PIC16F819 (18-pin DIP) を使用した詳細な配線表です。
     * PIC16F819 マイコン
     * USB-シリアル変換モジュール (FT232など)
     * LED x1, 抵抗 (330Ω) x1, 圧電スピーカー x1
-    * PIC書き込み器 (PICKit 3/4など)
+    * **PIC書き込み器 (ライター):** PICKit 3/4, K150, または各種プログラマ
 * **ソフトウェア:**
+    * **PIC書き込みソフト:** HEXファイルをマイコンに転送するソフト (例: MPLAB IPE, PICkit Programmer App, Elenic Prog等)
     * Cコンパイラ: CCS C Compiler (または MPLAB XC8 ※要コード修正)
     * LabVIEW (NI VISAドライバインストール済み)
 
 ### 2. PICへの書き込み (Firmware)
 1. リポジトリ内の `819-ReadSonar.c` をメインファイルとしてプロジェクトを開きます。
 2. コンパイルを実行し、HEXファイルを生成します。
-3. PIC書き込み器を使用して、HEXファイルをPIC16F819に書き込みます。
+3. **PIC書き込み器**をPCに接続し、**書き込みソフト**を起動します。
+4. 生成されたHEXファイルを読み込み、PIC16F819に書き込み (Programming) を行います。
 
 ### 3. ハードウェアの接続
 1. 上記の「配線・接続」表に従って回路を配線します。
