@@ -1,9 +1,9 @@
 # Morse-Code-Messenger(LabVIEWxPIC)
 PC（LabVIEW）に入力したテキストを、リアルタイムで**光と音のモールス信号**に変換して出力する組み込みシステムです。  
 
-![C Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c&logoColor=white)
-![LabVIEW](https://img.shields.io/badge/Tools-LabVIEW-orange?style=for-the-badge&logo=ni&logoColor=white)
-![Microchip](https://img.shields.io/badge/Hardware-PIC16F819-red?style=for-the-badge&logo=microchip&logoColor=white)
+[![C Language](https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c&logoColor=white)](https://ja.wikipedia.org/wiki/C%E8%A8%80%E8%AA%9E)
+[![LabVIEW](https://img.shields.io/badge/Tools-LabVIEW-orange?style=for-the-badge&logo=ni&logoColor=white)](https://www.ni.com/ja-jp/shop/labview.html)
+[![Microchip](https://img.shields.io/badge/Hardware-PIC16F819-red?style=for-the-badge&logo=microchip&logoColor=white)](https://www.microchip.com/)
 
 ## 🎓 学習目的
 
